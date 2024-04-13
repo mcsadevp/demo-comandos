@@ -11,7 +11,9 @@ git commit -m "Corrección errores"
 git remote add origin https://github.com/mcsadevp/demo-comandos.git
 git push origin development
 git checkout main
-git pull
+git pull origin development
+git add .
+git commit -m "Actualización rama main"
 git push origin main.
 
  
